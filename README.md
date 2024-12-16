@@ -60,7 +60,7 @@ Copiar código
 2. Clone este repositório.
 3. Execute o comando abaixo para rodar o contêiner MySQL com o Docker Compose:
 
-```bash
+
 docker-compose up -d
 
 
