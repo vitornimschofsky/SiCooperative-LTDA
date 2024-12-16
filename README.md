@@ -28,6 +28,42 @@ Arquitetura
 
 
 
+Além da introdução e da amostra de dados, aqui estão algumas outras seções úteis que você pode adicionar ao seu README para torná-lo mais completo:
+
+1. Tecnologias Utilizadas
+Explique as tecnologias que você usou para construir o projeto. Isso ajuda a entender as escolhas feitas e as ferramentas que o usuário ou colaborador precisa para rodar o projeto.
+
+markdown
+Copiar código
+## Tecnologias Utilizadas
+
+- **Docker**: Para containerizar o MySQL, garantindo um ambiente isolado e fácil de configurar.
+- **MySQL**: Banco de dados relacional utilizado para armazenar as tabelas de dados.
+- **Databricks**: Plataforma de análise de dados baseada em Apache Spark, usada para processar e transformar os dados.
+- **Python**: Linguagem de programação usada para gerar dados fictícios (com a biblioteca Faker) e interagir com o banco de dados.
+- **PySpark**: Framework para processamento de dados distribuído, utilizado no Databricks para transformação de dados.
+
+2. Configuração do Ambiente
+Detalhe como configurar e rodar o projeto localmente. Se estiver usando Docker, explique como levantar o contêiner.
+
+markdown
+Copiar código
+## Configuração do Ambiente
+
+### Pré-requisitos
+- Docker
+- Python 3.x
+- Databricks (ou uma alternativa de ambiente Spark)
+
+### Instruções para rodar o MySQL via Docker
+1. Certifique-se de que o Docker esteja instalado.
+2. Clone este repositório.
+3. Execute o comando abaixo para rodar o contêiner MySQL com o Docker Compose:
+
+```bash
+docker-compose up -d
+
+
 Tabela final consolidada
 
  ![image](https://github.com/user-attachments/assets/80f6aad2-5c18-495c-8666-79adadc08c15)
