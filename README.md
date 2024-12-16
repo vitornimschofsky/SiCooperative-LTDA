@@ -8,7 +8,7 @@ A proposta do desafio consiste na criação de um Data Lake para centralizar os 
 A arquitetura do sistema foi projetada para rodar localmente, utilizando Docker para containerizar o MySQL, e Databricks para consumir e processar os dados utilizando o framework PySpark.
 
 
-Arquitetura
+## Arquitetura
 
 ![image](https://github.com/user-attachments/assets/2e56c15a-82ef-460d-bc0a-f4a5359d158e)
 
@@ -24,7 +24,7 @@ Arquitetura
 - **PySpark**: Framework para processamento de dados distribuído, utilizado no Databricks para transformação de dados.
 
 
-Escolha de Design
+## Escolha de Design
 
 O design do fluxo de dados foi pensado para ser simples e modular, com componentes que interagem diretamente entre si de forma eficiente. Optei por utilizar Docker para rodar o MySQL, pois ele oferece uma maneira fácil de configurar e isolar o banco de dados em um contêiner, o que facilita tanto o desenvolvimento quanto a portabilidade do projeto.
 
@@ -33,9 +33,6 @@ Databricks foi escolhido como ferramenta para processar e transformar os dados d
 Esse design é eficiente, pois separa claramente os componentes do sistema (armazenamento de dados, processamento e análise), facilitando a manutenção e possíveis expansões no futuro.
 
 
-1. Tecnologias Utilizadas
-Explique as tecnologias que você usou para construir o projeto. Isso ajuda a entender as escolhas feitas e as ferramentas que o usuário ou colaborador precisa para rodar o projeto.
-
 ## Tecnologias Utilizadas
 
 - **Docker**: Para containerizar o MySQL, garantindo um ambiente isolado e fácil de configurar.
@@ -43,10 +40,6 @@ Explique as tecnologias que você usou para construir o projeto. Isso ajuda a en
 - **Databricks**: Plataforma de análise de dados baseada em Apache Spark, usada para processar e transformar os dados.
 - **Python**: Linguagem de programação usada para gerar dados fictícios (com a biblioteca Faker) e interagir com o banco de dados.
 - **PySpark**: Framework para processamento de dados distribuído, utilizado no Databricks para transformação de dados.
-
-2. Configuração do Ambiente
-Detalhe como configurar e rodar o projeto localmente. Se estiver usando Docker, explique como levantar o contêiner.
-
 
 ## Configuração do Ambiente
 
@@ -64,12 +57,12 @@ Detalhe como configurar e rodar o projeto localmente. Se estiver usando Docker, 
 docker-compose up -d
 
 
-Tabela final consolidada
+## Tabela final consolidada
 
  ![image](https://github.com/user-attachments/assets/80f6aad2-5c18-495c-8666-79adadc08c15)
 
  
-Explicação das colunas:
+## Explicação das colunas:
 nome_associado: Primeiro nome do associado.
 sobrenome_associado: Sobrenome do associado.
 idade_associado: Idade do associado.
@@ -83,7 +76,7 @@ tipo_conta: Tipo da conta (corrente ou poupança).
 data_criacao_conta: Data de criação da conta associada ao cartão.
 
 
-Dificuldades Encontradas
+## Dificuldades Encontradas
 Durante o desenvolvimento do projeto, enfrentei alguns desafios:
 
 Configuração do Ambiente Docker: Inicialmente, tive dificuldades para configurar o Docker corretamente, principalmente em relação à comunicação entre o contêiner do MySQL e o Databricks. A configuração de rede entre o Docker e o Databricks exigiu alguns ajustes para garantir que a conexão JDBC funcionasse sem problemas.
