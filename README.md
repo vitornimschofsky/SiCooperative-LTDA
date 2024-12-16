@@ -32,15 +32,6 @@ Databricks foi escolhido como ferramenta para processar e transformar os dados d
 
 Esse design é eficiente, pois separa claramente os componentes do sistema (armazenamento de dados, processamento e análise), facilitando a manutenção e possíveis expansões no futuro.
 
-
-## Tecnologias Utilizadas
-
-- **Docker**: Para containerizar o MySQL, garantindo um ambiente isolado e fácil de configurar.
-- **MySQL**: Banco de dados relacional utilizado para armazenar as tabelas de dados.
-- **Databricks**: Plataforma de análise de dados baseada em Apache Spark, usada para processar e transformar os dados.
-- **Python**: Linguagem de programação usada para gerar dados fictícios (com a biblioteca Faker) e interagir com o banco de dados.
-- **PySpark**: Framework para processamento de dados distribuído, utilizado no Databricks para transformação de dados.
-
 ## Configuração do Ambiente
 
 ### Pré-requisitos
