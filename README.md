@@ -25,6 +25,7 @@ Arquitetura
 
 
 Escolha de Design
+
 O design do fluxo de dados foi pensado para ser simples e modular, com componentes que interagem diretamente entre si de forma eficiente. Optei por utilizar Docker para rodar o MySQL, pois ele oferece uma maneira fácil de configurar e isolar o banco de dados em um contêiner, o que facilita tanto o desenvolvimento quanto a portabilidade do projeto.
 
 Databricks foi escolhido como ferramenta para processar e transformar os dados devido à sua integração nativa com Apache Spark, que é uma solução robusta para processamento distribuído de grandes volumes de dados. Ao utilizar JDBC para conectar o Databricks ao MySQL, consegui garantir a flexibilidade de leitura de dados de uma base relacional sem a necessidade de etapas complexas de integração.
