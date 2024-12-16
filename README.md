@@ -10,7 +10,8 @@ A arquitetura do sistema foi projetada para rodar localmente, utilizando Docker 
 
 Arquitetura
 
-![image](https://github.com/user-attachments/assets/f51f2435-e0b7-4ff8-9006-eb78cc099db0)
+![image](https://github.com/user-attachments/assets/2e56c15a-82ef-460d-bc0a-f4a5359d158e)
+
 
 
 
