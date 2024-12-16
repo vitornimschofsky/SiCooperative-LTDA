@@ -1,7 +1,7 @@
 
-cd C:\Users\Vitor\Desktop\docker compose postgres
+cd C:\Users\Vitor\Desktop\docker compose mysql
 
-docker-compose up -d ## subir o PostgreSQL ##
+docker-compose up -d ## subir o Mysql ##
 
 docker ps ## verifica se o container esta em running ##
 
