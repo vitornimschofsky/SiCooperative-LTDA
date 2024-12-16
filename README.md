@@ -78,9 +78,9 @@ data_criacao_conta: Data de criação da conta associada ao cartão.
 
 
 ## Dificuldades Encontradas
-Durante o desenvolvimento do projeto, enfrentei alguns desafios:
+Durante o desenvolvimento do projeto, enfrentei alguns desafios no que diz respeito a configuração do ambiente Docker.
 
-Configuração do Ambiente Docker: Inicialmente, tive dificuldades para configurar o Docker corretamente, principalmente em relação à comunicação entre o contêiner do MySQL e o Databricks. A configuração de rede entre o Docker e o Databricks exigiu alguns ajustes para garantir que a conexão JDBC funcionasse sem problemas.
+Inicialmente, tive dificuldades para configurar o Docker corretamente, principalmente em relação à comunicação entre o contêiner do MySQL e o Databricks. A configuração de rede entre o Docker e o Databricks exigiu alguns ajustes para garantir que a conexão JDBC funcionasse sem problemas.
 
 ## Considerações Finais
 
