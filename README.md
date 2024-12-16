@@ -71,7 +71,9 @@ numero_cartao: Número do cartão associado à transação (apenas exemplo, não
 nome_impresso_cartao: Nome impresso no cartão.
 
 data_criacao_cartao: Data de criação do cartão.
+
 tipo_conta: Tipo da conta (corrente ou poupança).
+
 data_criacao_conta: Data de criação da conta associada ao cartão.
 
 
