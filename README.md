@@ -10,12 +10,8 @@ A arquitetura do sistema foi projetada para rodar localmente, utilizando Docker 
 
 Arquitetura
 
-+------------------+       +-------------------+       +------------------+
-|   Docker         | ---->|  MySQL Database    | ----> |  Databricks      |
-| (MySQL container)|      | (Tables: associado,|       | (Read and process|
-|                  |      |  conta, cartao,    |       |  data via JDBC)  |
-+------------------+      |  movimento)        |       +------------------+
-                          +-------------------+     
+![image](https://github.com/user-attachments/assets/f51f2435-e0b7-4ff8-9006-eb78cc099db0)
+
 
 
 ## Tecnologias Utilizadas
