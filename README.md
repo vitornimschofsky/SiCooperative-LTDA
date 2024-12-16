@@ -24,14 +24,17 @@ Arquitetura
 - **PySpark**: Framework para processamento de dados distribuído, utilizado no Databricks para transformação de dados.
 
 
+Escolha de Design
+O design do fluxo de dados foi pensado para ser simples e modular, com componentes que interagem diretamente entre si de forma eficiente. Optei por utilizar Docker para rodar o MySQL, pois ele oferece uma maneira fácil de configurar e isolar o banco de dados em um contêiner, o que facilita tanto o desenvolvimento quanto a portabilidade do projeto.
 
-Além da introdução e da amostra de dados, aqui estão algumas outras seções úteis que você pode adicionar ao seu README para torná-lo mais completo:
+Databricks foi escolhido como ferramenta para processar e transformar os dados devido à sua integração nativa com Apache Spark, que é uma solução robusta para processamento distribuído de grandes volumes de dados. Ao utilizar JDBC para conectar o Databricks ao MySQL, consegui garantir a flexibilidade de leitura de dados de uma base relacional sem a necessidade de etapas complexas de integração.
+
+Esse design é eficiente, pois separa claramente os componentes do sistema (armazenamento de dados, processamento e análise), facilitando a manutenção e possíveis expansões no futuro.
+
 
 1. Tecnologias Utilizadas
 Explique as tecnologias que você usou para construir o projeto. Isso ajuda a entender as escolhas feitas e as ferramentas que o usuário ou colaborador precisa para rodar o projeto.
 
-markdown
-Copiar código
 ## Tecnologias Utilizadas
 
 - **Docker**: Para containerizar o MySQL, garantindo um ambiente isolado e fácil de configurar.
@@ -43,8 +46,7 @@ Copiar código
 2. Configuração do Ambiente
 Detalhe como configurar e rodar o projeto localmente. Se estiver usando Docker, explique como levantar o contêiner.
 
-markdown
-Copiar código
+
 ## Configuração do Ambiente
 
 ### Pré-requisitos
