@@ -55,13 +55,21 @@ docker-compose up -d
  
 ## Explicação das colunas:
 nome_associado: Primeiro nome do associado.
+
 sobrenome_associado: Sobrenome do associado.
+
 idade_associado: Idade do associado.
+
 vlr_transacao_movimento: Valor da transação realizada.
+
 des_transacao_movimento: Descrição da transação (ex: compra, saque, pagamento, etc.).
+
 data_movimento: Data em que a transação foi realizada.
+
 numero_cartao: Número do cartão associado à transação (apenas exemplo, não real).
+
 nome_impresso_cartao: Nome impresso no cartão.
+
 data_criacao_cartao: Data de criação do cartão.
 tipo_conta: Tipo da conta (corrente ou poupança).
 data_criacao_conta: Data de criação da conta associada ao cartão.
